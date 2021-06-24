@@ -28,7 +28,46 @@ html, body {
 
 .App .Home {
   height: 100%;
+
+}
+
+.App .Home .BackGroundImg{
   background-image: url(https://cdn.pixabay.com/photo/2018/08/21/17/26/korea-3621711_960_720.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  height: 100%;
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+}
+
+.App .Center {
+  position: absolute;
+    top: 50%;
+    text-align: center;
+    width: 100%;
+    color: wheat;
+}
+
+.App .current {
+  font-size: 30px;
+}
+
+.App .msg {
+  font-size: 15px;
+  border-bottom: 0.5px solid;
+  padding-bottom: 10px;
+  padding-top: 5px;
+}
+
+.App .temp_detail {
+  padding-top: 10px;
+}
+
+.App .info {
+  position: absolute;
+  bottom: 40px;
+  left: 10px;
 }
